@@ -1,9 +1,9 @@
 class FizzBuzz
   def judge_number number
+    return 'error' if number <= 0
     return 'fizzbuzz' if divided_by_3?(number) && divided_by_5?(number)
     return 'buzz' if divided_by_3? number
-    return 'fizz' if number > 0
-    'error'
+    'fizz'
   end
 
   private

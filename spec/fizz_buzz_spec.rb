@@ -20,4 +20,8 @@ describe FizzBuzz do
   it 'should return fizzbuzz when the number is divided by 3 and divided by 5' do
     FizzBuzz.new.judge_number(15).should == 'fizzbuzz'
   end
+
+  it "should return error when it is -3 " do
+    FizzBuzz.new.judge_number(-3).should == 'error'
+  end
 end
