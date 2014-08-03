@@ -20,6 +20,5 @@ describe HashSplitByKey do
 
     expect(test.split_hash_by_key( {:a => 1, :b => 2}, :a ))
                     .to eq [ {:a => 1, :b => 2} ]
-
   end
 end
