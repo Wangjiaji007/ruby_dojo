@@ -12,6 +12,7 @@ class BlackJack
       sum += 10
     end
 
+
     sum
   end
 end
